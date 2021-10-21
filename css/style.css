@@ -1,0 +1,827 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.info-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.out {
+    opacity: 0;
+}
+.info-header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-info{
+    margin: 50px 0 0 50px;
+}
+.left-info h3 a{
+    font-size: 40px;
+    font-family: 'Poppins-EB';
+    color: #1A1A1A;
+}
+.left-info span{
+    color:#0081FF;
+    font-size: 33px;
+}
+.left-info h4{
+    font-size: 13px;
+    font-family: 'Montserrat';
+    color: #B3B3B3;
+}
+
+.right-info{
+    position: relative;
+    width: 227px;
+    margin: 25px 80px 0 0;
+}
+.right-info h2{
+    font-size: 158px;
+    font-family: 'Poppins-EB';
+    opacity: 0.2;
+}
+.right-info h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 43px;
+    font-family: 'Poppins-EB';
+    width: 100%;
+    color: #373737;
+}
+.information-box{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-right: 300px;
+    float: right;
+}
+.clear{
+    clear: right;
+}
+.information-box h3{
+    font-family: 'Glacial Indifference';
+    font-size: 50px;
+    color: #212121;
+    padding-bottom: 25px;
+}
+.information-box h2{
+    font-family: 'Glacial Indifference-B';
+    font-size: 71px;
+    padding-bottom: 20px;
+}
+.information-box h6{
+    font-family: 'Glacial Indifference';
+    font-size: 23px;
+    padding-bottom: 50px;
+}
+.information-box .social-icons a{
+    margin-left: 15px;
+}
+.text-adv{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.text-adv span{
+    color: #E93656;
+}
+.text-adv h6{
+    display: inline-block;
+    font-family: 'Montserrat-B';
+    font-size: 24px;
+    color: #212121;
+    padding-right: 80px;
+    border-bottom: 6px solid #E93656;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+}
+/* 2nd section */
+#biography-section {
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.biography-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biography {
+    max-width: 334px;
+    width: 100%;
+    text-align: right;
+    padding-top: 83px;
+}
+.biography h4 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 40px;
+    /* text-align: end; */
+    margin-bottom: 5px;
+}
+.biography h6 {
+    font-family: 'Muli';
+    font-size: 14px;
+    margin-bottom: 35px;
+    color: #DAAE19;
+    text-align: end;
+}
+.biography p {
+    font-family: 'Muli';
+    font-size: 15px;
+    line-height: 16px;
+    color: #555555;
+    margin-bottom: 60px;
+}
+.biography button {
+    /* max-width: 152px;
+    width: 100%; */
+    /* max-height: 50px; 
+    height: 100%; */
+    border: none; 
+    font-family: 'Glacial Indifference-B';
+    font-size: 15px;
+    transition: all 1s;
+    border-radius: 5px;
+    padding: 15px 45px;
+}
+.biography button:hover {
+    background-color: #E93656;
+    color: #fff;
+}
+.image {
+    max-width: 430px;
+    width: 100%;
+    max-height: 603px;
+    height: 100%;
+    margin-top: 135px;
+    margin-left: 2%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+}
+.knowledge {
+    max-width: 302px;
+    width: 100%;
+    height: 297px;
+    margin-top: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.knowledge h6 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 20px;
+    color: #555555;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.line {
+    width: 0%;
+    height: 8px;
+    background-color: #E93656;
+    transition: all 2s;
+    transition-timing-function: linear;
+    opacity: 0;
+    margin-bottom: 20px;
+}
+.pers-number {
+    color: #E93656;
+    opacity: 0;
+    transition: opacity 2s;
+    transition-timing-function: linear;
+}
+.pers-number.red {
+    opacity: 1;   
+}
+.line.one.red {
+    opacity: 1;
+    width: 80%;
+}
+.line.two.red {
+    opacity: 1;
+    width: 60%;
+}
+.line.three.red {
+    opacity: 1;
+    width: 50%;
+}
+.line.four.red {
+    opacity: 1;
+    width: 30%;
+}
+.social-links {
+    max-width: 215px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 78px;
+}
+.social-links a {
+    padding: 15px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color: #ddd;
+    transition: all 2s;
+}
+.social-links a:hover {
+    color: #fff;
+    background-color: #15263E;
+}
+.column {
+    flex-direction: column;
+    margin-left: 2%;
+}
+.contact-div {
+    background-color: #131A36;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-box, .address-box, .email-box {
+    display: flex;
+    padding: 55px 40px;
+}
+.number, .address, .email {
+    margin-left: 29px;
+}
+.contact-div img {
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.contact-div h3 {
+    font-size: 25px;
+    font-family: 'Glacial Indifference-B';
+    color: #FFFFFF;
+}
+.contact-div p {
+    font-size: 14px;
+    font-family: 'Muli';
+    color: #DFDFDF;
+    margin-top: 15px;
+}
+.contact-div img:hover {
+    background-color: #E93656;
+}
+.phone-box img:hover {
+    transform: rotate(360deg);
+}
+.address-box img:hover {
+    transform: rotate(360deg);
+}
+.email-box img:hover {
+    transform: rotateY(180deg);
+}
+/* 3rd section */
+#services {
+    margin: 200px 0 160px 0;
+}
+.service-div {
+    max-width: 1170px;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.service-box {
+    width: 285px;
+    height: 360px;
+    display: flex;
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.margin-left {
+    margin-left: 10px;
+}
+.service-box h5 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 22px;
+    margin-top: 16px;
+}
+.service-back {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+.none {
+    display: none;
+}
+.service-back p {
+    padding: 19px 30px;
+    font-size: 14px;
+    font-family: 'Muli';
+    color: #ECECEC;
+}
+.service-back h4 {
+    font-size: 22px;
+    font-family: 'Glacial Indifference-B';
+    color: #fff;
+    text-align: center;
+}
+/* 4rth section */
+.recommendation-section{
+    background-image: url(../images/Parallax\ Image.png);
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recommendations-article{
+    display: flex;
+    align-items: center;
+}
+.recommendations-image{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px dotted white;
+    padding: 10px;
+    margin-right: 50px;
+}
+.recommendations-text{
+    color: #FFFFFF;
+    font-family: 'Roboto-L';
+    font-size: 15px;
+    max-width: 498px;
+    width: 100%;
+    margin-right: 50px;
+    text-align: right;
+    line-height: 2;
+}
+.recommendations-author{
+    margin-right: 150px;
+}
+.recommendations-sign-icon{
+    margin-bottom: 30px;
+}
+.recommendations-profession{
+    font-size: 13px;
+    color: #E93656;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+}
+.recommendations-name{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Glacial Indifference-B';
+}
+.bullet-box{
+    display: flex;
+    flex-direction: column;
+}
+.bullet{
+    margin-bottom: 15px;
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.bullet.active{
+    border-color: #E93656;
+}
+
+/* 5th section */
+#latestProjects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 144px;
+}
+.projects {
+    max-width: 1170px;
+    width: 100%;
+    height: 849px;
+    margin-top: 144px;
+}
+.projects h2 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 70px;
+    color: #2E2E2E;
+    text-align: center;
+}
+.list-box {
+    max-width: 240px;
+    width: 100%;
+    height: 401px;
+    margin-top: 55px;
+    background-color: #15263E;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.list-box a {
+    color: #FFF;
+    font-family: 'Glacial Indifference-B';
+    font-size: 20px;
+    transition: color 1s;
+}
+.list-box a:hover {
+    color: #E93656;
+}
+.list-box ul {
+    height: 291px;
+}
+.list-box li {
+    margin-bottom: 25px;
+}
+.detail-projects {
+    max-width: 900px;
+    width: 100%;
+    height: 700px;
+    margin-top: 55px;
+    margin-left: 1.5%;
+}
+.project {
+    max-width: 300px;
+    width: 100%;
+    height: 350px;
+    border: 0.5px solid #fff;
+    position: relative;
+    transition: all 2s;
+}
+.hide-project {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    opacity: 0.8;
+    
+}
+.project-img, .project-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: all 2s;
+}
+.project-img:hover {
+    opacity: 0.1;
+}
+.hide-project p {
+    color: #DDDDDD;
+    font-family: 'Muli';
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+.project-img.change-opacity {
+    opacity: 0.1;
+}
+.hide-project h3 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 23px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.hide-project img {
+    width: 50px;
+    height: 50px;
+    margin-top: 105px;
+    margin-bottom: 17px;
+}
+.project-two, .project-three {
+    margin-left: 2px;
+}
+.project-four, .project-five, .project-six {
+    margin-top: 2px;
+}
+.red-color {
+    color: #E93656;
+}
+.flex {
+    display: flex;
+}
+/* 6th section */
+.latest-articles-section{
+    display: flex;
+    flex-direction: column;
+}
+.latest-articles-section .title{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.latest-articles-section .title h6{
+    font-family: 'Glacial Indifference-Bold';
+    font-size: 13px;
+    color: #2ED279;
+    margin-bottom: 15px;
+}
+.latest-articles-section .title h2{
+    font-family: 'Glacial Indifference-Bold';
+    font-size: 70px;
+    color: #2E2E2E;
+}
+.articles-box{
+    display: flex;
+    flex-direction: column;
+}
+.articles-box .article{
+    padding-left: 170px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.articles-box .article.middle{
+    padding-left: 0;
+    padding-right: 170px;
+    justify-content: flex-start;
+}
+.articles-box .article .article-info{
+    display: inline-block;
+    padding: 75px 0 135px 10px;
+    background-color: #FAFAFA;
+    width: 40vw;
+}
+.articles-box .article .article-info img{
+    margin-bottom: 35px;
+}
+.articles-box .article .article-info h6{
+    color: #888888;
+    font-size: 14px;
+    font-family: 'Muli';
+    margin-bottom: 20px;
+}
+.articles-box .article .article-info h2{
+    color: #161616;
+    font-size: 40px;
+    font-family: 'Glacial Indifference-B';
+    margin-bottom: 35px;
+}
+.articles-box .article .article-info p{
+    color: #494949;
+    font-size: 16px;
+    font-family: 'Muli';
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.articles-box .article .article-info button{
+    border: none;
+    background-color: transparent;
+    color: #494949;
+    font-size: 16px;
+    font-family: 'Muli';
+    padding: 0;
+    cursor: pointer;
+}
+.articles-box .article .article-date{
+    color: #E93656;
+    background-color: #15263E;
+    font-family: 'Glacial Indifference-B';
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    justify-content: center;
+}
+.articles-box .article .article-date h4{
+    transform: rotate(-90deg);
+}
+.articles-box .article .article-img{
+    width: 40vw;
+}
+ /* 7th section */
+ #partners-section {
+    width: 100%;
+    /* height: 695px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+.rosa-team {
+    max-width: 1170px;
+    width: 100%;
+    height: 371px;
+}
+.rosa-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rosa-title h6 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 13px;
+    color: #2ED279;
+}
+.rosa-title h2 {
+    font-family: 'Glacial Indifference-B';
+    font-size: 70px;
+    color: #2E2E2E;
+}
+.logoes {
+    width: 100%;
+    margin-top: 121px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-box {
+    width: 110px;
+    height: 110px; 
+    position: relative;
+}
+.logo-text {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+}
+.logo-img, .logo-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: all 3s;
+}
+.logo-img:hover {
+    transform: rotateX(-90deg);
+    opacity: 0;
+}
+.logo-text h5 {
+    font-family: 'Poppins-SB';
+    font-size: 16px;
+    color: #161616;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+.logo-text p {
+    font-family: 'Roboto-L';
+    font-size: 13px;
+    color: #626262;
+    position: absolute;
+    text-align: center;
+}
+/* 8th section */
+#contact {
+    width: 100%;
+    height: 660px;
+    background-image: url('/images/Image.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 155px;
+}
+.contact-box {
+    max-width: 890px;
+    width: 100%;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-us {
+    max-width: 434px;
+    width: 100%;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.contact-us h2 {
+    font-family: 'Jaapokki';
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-us p {
+    font-size: 17px;
+    font-family: 'Roboto-L';
+    color: #EEEEEE;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 890px;
+    width: 100%;
+}
+#fname , #email, #website {
+    width: 290px;
+    height: 50px;
+    font-weight: 'Poppins-SB';
+    font-size: 10px;
+    color: #515151;
+}
+#email, #website {
+    margin-left: 10px;
+}
+#message {
+    max-width: 890px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 'Poppins-SB';
+    font-size: 10px;
+    color: #515151;
+}
+#sendMessage {
+    width: 187px;
+    height: 50px;
+    color: #E93656;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 'Glacial Indifference-B';
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+}
+#sendMessage:hover {
+    border: solid 1px #E93656;
+    box-shadow: 20px 20px 50px 10px #E93656 inset;
+    color: #fff;
+    letter-spacing: 4px;
+}
+/* footer */
+footer {
+    width: 100%;
+    /* height: 510px; */
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-section {
+    max-width: 613px;
+    width: 100%;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section h2 {
+    font-family: 'Poppins-EB';
+    font-size: 55px;
+    color: #FFFFFF;
+}
+.footer-section span {
+    color: #E93656;
+}
+.footer-detail {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-detail p {
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: #A5A5A5;
+    width: 100%;  
+    text-align: center;
+}
+.social-footer-links {
+    display: flex;
+    margin-top: 50px;
+}
+.social-footer-links a {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    color: #00b489;
+}
+.social-footer-links a:hover {
+    color: #fff;
+}
+.footer-last-part {
+    width: 100%;
+    height: 82px;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-last-part p {
+    font-family: 'Muli';
+    font-size: 15px;
+    color: #A0A8B7;
+}
