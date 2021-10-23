@@ -21,11 +21,44 @@
         font-size: 50px;
     }
     /* 2nd section */
+    .biography {
+        text-align: center;
+        max-width: 600px;
+    }
     .biography-box {
         flex-direction: column;
     }
     .contact-div {
         flex-direction: column;
+    }
+    .biography h4 {
+        font-size: 50px;
+    }
+    .biography h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .biography p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .biography button {
+        font-size: 22px;
+    }
+    .knowledge {
+        max-width: 600px;
+    }
+    .knowledge h6 {
+        font-size: 25px;
+    }
+    .social-links {
+        max-width: 500px;
+    }
+    .social-links a {
+        padding: 25px;
+        font-size: 25px;
+        width: 80px;
+        height: 80px;
     }
     /* 3rd section */
 
@@ -59,7 +92,7 @@
     justify-content: space-around;
 }
 .list-box a {
-    font-size: 35px;
+    font-size: 33px;
 }
 .list-box ul {
     height: 150px;
