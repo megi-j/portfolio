@@ -31,6 +31,12 @@
     .contact-div {
         flex-direction: column;
     }
+    .contact-div h3 {
+        font-size: 30px;
+    }
+    .contact-div p {
+        font-size: 18px;
+    }
     .biography h4 {
         font-size: 50px;
     }
@@ -75,30 +81,68 @@
         margin-left: 15px;
     }
     /* 5th section */
-#latestProjects {
-    margin-bottom: 400px;
-}
-.parent-project-div {
-    flex-direction: column;
-    align-items: center;
-}
-.list-box {
-    max-width: 1170px;
-    height: 220px;
-}
-.list-box nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.list-box a {
-    font-size: 33px;
-}
-.list-box ul {
-    height: 150px;
-}
+    #latestProjects {
+        margin-bottom: 400px;
+    }
+    .parent-project-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-box {
+        max-width: 1170px;
+        height: 220px;
+    }
+    .list-box nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .list-box a {
+        font-size: 33px;
+    }
+    .list-box ul {
+        height: 150px;
+    }
 }
 
-@media(max-width:840px) {
+@media(max-width:800px) {
+    /* 5th section */
+    .list-box {
+        max-width: 750px;
+    }
+    .list-box a {
+        font-size: 25px;
+    }
+    /* 6th section */
+    .articles-box .article {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .articles-box .article.middle {
+        padding-right: 0;
+        justify-content: center;
+    }
+    /* 8th section */
+    #fname , #email, #website {
+        width: 240px;
+    }
+    #message {
+        max-width: 750px;
+    }
+}
+@media(max-width:600px){
     /* 1st section */
+    .right-info {
+        display: none;
+    }
+    .information-box {
+        float: none;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        
+     }
+    /* 6th section */
+
 }
