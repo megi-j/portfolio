@@ -106,12 +106,52 @@
 }
 
 @media(max-width:800px) {
+    /* 1st section */
+    .left-info h3 a {
+        font-size: 25px;
+    }
+    .left-info h4{
+        font-size: 10px;
+    }
+    .right-info {
+        display: none;
+    }
+    .information-box h3 {
+        font-size: 25px;
+
+    }
+    .information-box h2 {
+        font-size: 35px;
+    }
+    .text-adv h6 {
+        font-size: 20px;
+    }
+    /* 2nd section */
+    .biography {
+        max-width: 400px;
+    }
+    .biography h4 {
+        font-size: 40px;
+    }
+    .biography h6 {
+        font-size: 15px;
+    }
+    .biography p {
+        font-size: 18px;
+        line-height: 18px;
+    }
     /* 5th section */
     .list-box {
-        max-width: 750px;
+        max-width: 500px;
     }
     .list-box a {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .project-line {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
     }
     /* 6th section */
     .articles-box .article {
@@ -122,12 +162,23 @@
         padding-right: 0;
         justify-content: center;
     }
-    /* 8th section */
-    #fname , #email, #website {
-        width: 240px;
+    .article-img {
+        display: none;
     }
+    /* 7th section */
+    .logoes {
+        flex-wrap: wrap;
+    }
+    /* 8th section */
+   .input-div {
+       display: flex;
+       flex-direction: column;
+   }
     #message {
-        max-width: 750px;
+        max-width: 400px;
+    }
+    #email, #website {
+        margin-left: 0;
     }
 }
 @media(max-width:600px){
@@ -143,6 +194,56 @@
         padding-left: 2%;
         
      }
+     /* 5th section */
+    
+    .project-line {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
     /* 6th section */
+    .articles-box .article .article-info{
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+    .article {
+        margin-bottom: 10px;
+    }
 
+}
+@media(max-width:480px){
+    /* 6th section */
+    .latest-articles-section .title h2, .projects h2, .rosa-title h2 {
+        font-size: 50px;
+    }
+    .articles-box .article .article-info h2 {
+        font-size: 30px;
+    }
+    /* 7th section */
+    .logoes {
+      align-items: center;
+     
+    }
+    .logo-box {
+        margin-bottom: 10px;
+    }
+    /* 8th section */
+    .contact-us h2 {
+        font-size: 30px;
+    }
+    .contact-us p {
+        font-size: 13px;
+    }
+    /* footer section */
+    .footer-section h2 {
+        font-size: 40px;
+    }
+    .footer-detail p {
+        font-size: 12px;
+    }
+    .footer-last-part p {
+        font-size: 10px;
+    }
 }

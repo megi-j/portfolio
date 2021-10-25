@@ -34,7 +34,6 @@
     font-family: 'Montserrat';
     color: #B3B3B3;
 }
-
 .right-info{
     position: relative;
     max-width: 227px;
@@ -104,7 +103,7 @@
 }
 /* 2nd section */
 #biography-section {
-    margin-top: 135px;
+    /* margin-top: 135px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -285,9 +284,9 @@
     transform: rotateY(180deg);
 }
 /* 3rd section */
-#services {
+/* #services {
     margin: 200px 0 160px 0;
-}
+} */
 .service-div {
     max-width: 1170px;
     border: 1px;
@@ -340,7 +339,7 @@
 .recommendation-section{
     background-image: url(../images/Parallax\ Image.png);
     width: 100%;
-    height: 570px;
+    /* height: 570px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,6 +347,7 @@
 .recommendations-article{
     display: flex;
     align-items: center;
+    padding: 100px;
 }
 .recommendations-image{
     width: 140px;
@@ -405,13 +405,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 144px;
+    /* margin-top: 144px; */
 }
 .projects {
     max-width: 1170px;
     width: 100%;
-    height: 849px;
-    margin-top: 144px;
+    /* height: 849px; */
+    /* margin-top: 144px; */
 }
 .projects h2 {
     font-family: 'Glacial Indifference-B';
@@ -447,7 +447,7 @@
 .detail-projects {
     max-width: 900px;
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     margin-top: 55px;
     margin-left: 1.5%;
 }
@@ -521,7 +521,7 @@
     flex-direction: column;
 }
 .latest-articles-section .title{
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     text-align: center;
 }
 .latest-articles-section .title h6{
@@ -531,7 +531,7 @@
     margin-bottom: 15px;
 }
 .latest-articles-section .title h2{
-    font-family: 'Glacial Indifference-Bold';
+    font-family: 'Glacial Indifference-B';
     font-size: 70px;
     color: #2E2E2E;
 }
@@ -609,12 +609,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 170px;
+    /* margin-top: 170px; */
 }
 .rosa-team {
     max-width: 1170px;
     width: 100%;
-    height: 371px;
+    /* height: 371px; */
 }
 .rosa-title {
     display: flex;
@@ -677,12 +677,13 @@
 /* 8th section */
 #contact {
     width: 100%;
-    height: 660px;
+    /* height: 660px; */
     background-image: url('/images/Image.png');
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin-top: 155px;
+    /* margin-top: 155px; */
+    padding: 100px;
 }
 .contact-box {
     max-width: 890px;
@@ -740,7 +741,8 @@ form {
     color: #515151;
 }
 #sendMessage {
-    width: 187px;
+    max-width: 187px;
+    width: 100%;
     height: 50px;
     color: #E93656;
     background-color: rgba(0,0,0,0.2);
@@ -769,11 +771,12 @@ footer {
 .footer-section {
     max-width: 613px;
     width: 100%;
-    height: 428px;
+    /* height: 428px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 100px;
 }
 .footer-section h2 {
     font-family: 'Poppins-EB';
