@@ -214,12 +214,51 @@
 
 }
 @media(max-width:480px){
+    /* 1st section */
+    .info-header {
+        justify-content: center;
+    }
+    .information-box {
+        padding-top: 80px;
+    }
+    .information-box h3{
+        font-size: 20px;
+    }
+    .information-box h2 {
+        font-size: 30px;
+    }
+    .information-box h6 {
+        font-size: 20px;
+    }
+    /* 2nd section */
+    .biography h4 {
+        font-size: 30px;
+    }
+    .biography p {
+        font-size: 12px;
+    }
+    .biography button {
+        font-size: 15px;
+    }
+    .contact-div h3 {
+        font-size: 20px;
+    }
+    .contact-div p {
+        font-size: 12px;
+    }
+    .contact-div img {
+        width: 50px;
+        height: 50px;
+    }
     /* 6th section */
     .latest-articles-section .title h2, .projects h2, .rosa-title h2 {
         font-size: 50px;
     }
     .articles-box .article .article-info h2 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .article-info p {
+        font-size: 10px;
     }
     /* 7th section */
     .logoes {
@@ -231,10 +270,10 @@
     }
     /* 8th section */
     .contact-us h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .contact-us p {
-        font-size: 13px;
+        font-size: 8px;
     }
     /* footer section */
     .footer-section h2 {
