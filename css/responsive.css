@@ -211,7 +211,7 @@
     .article {
         margin-bottom: 10px;
     }
-    .articles-box .article .article-info px {
+    .articles-box .article .article-info p {
         font-size: 12px;
     }
 
@@ -233,6 +233,12 @@
     .information-box h6 {
         font-size: 20px;
     }
+    .text-adv h6 {
+        font-size: 18px;
+
+    }
+
+    
     /* 2nd section */
     .biography h4 {
         font-size: 30px;
@@ -255,6 +261,20 @@
     }
     .knowledge {
         justify-content: center;
+        align-items: center;
+    }
+    .knowledge h6 {
+        font-size: 18px;
+    }
+    .social-links {
+        max-width: 180px;
+        height: 30px;
+        
+    }
+    .social-links a {
+        padding: 10px;
+        width: 40px;
+        height: 40px;
     }
     /* 6th section */
     .latest-articles-section .title h2, .projects h2, .rosa-title h2 {
@@ -276,19 +296,22 @@
     }
     /* 8th section */
     .contact-us h2 {
-        font-size: 25px;
+        font-size: 18px;
     }
     .contact-us p {
         font-size: 8px;
     }
+    #sendMessage {
+        font-size: 10px;
+    }
     /* footer section */
     .footer-section h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .footer-detail p {
         font-size: 12px;
     }
     .footer-last-part p {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
